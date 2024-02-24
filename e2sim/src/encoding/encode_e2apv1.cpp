@@ -26,9 +26,9 @@
 
 #include <iterator>
 #include <vector>
-#include <GlobalE2node-eNB-ID.h>
-#include <GlobalE2node-ng-eNB-ID.h>
-#include <GlobalE2node-en-gNB-ID.h>
+#include "GlobalE2node-eNB-ID.h"
+#include "GlobalE2node-ng-eNB-ID.h"
+#include "GlobalE2node-en-gNB-ID.h"
 
 
 #include "encode_e2apv1.hpp"
