@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "asn_application.h": "c",
+        "asn_internal.h": "c",
+        "xer_support.h": "c",
+        "nativeinteger.h": "c",
+        "errno.h": "c",
+        "assert.h": "c",
+        "per_decoder.h": "c"
+    }
+}
