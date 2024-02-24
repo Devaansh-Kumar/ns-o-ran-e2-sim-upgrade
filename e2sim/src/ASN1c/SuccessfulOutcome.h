@@ -9,13 +9,13 @@
 #define	_SuccessfulOutcome_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "ProcedureCode.h"
 #include "Criticality.h"
-#include <ANY.h>
-#include <asn_ioc.h>
+#include "ANY.h"
+#include "asn_ioc.h"
 #include "RICsubscriptionRequest.h"
 #include "RICsubscriptionResponse.h"
 #include "RICsubscriptionFailure.h"
@@ -36,9 +36,9 @@
 #include "RICindication.h"
 #include "RICserviceQuery.h"
 #include "ErrorIndication.h"
-#include <OPEN_TYPE.h>
-#include <constr_CHOICE.h>
-#include <constr_SEQUENCE.h>
+#include "OPEN_TYPE.h"
+#include "constr_CHOICE.h"
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -88,4 +88,4 @@ extern asn_TYPE_member_t asn_MBR_SuccessfulOutcome_1[3];
 #endif
 
 #endif	/* _SuccessfulOutcome_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

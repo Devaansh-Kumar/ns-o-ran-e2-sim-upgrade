@@ -9,10 +9,10 @@
 #define	_EUTRACellIdentity_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <BIT_STRING.h>
+#include "BIT_STRING.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -43,4 +43,4 @@ per_type_encoder_f EUTRACellIdentity_encode_aper;
 #endif
 
 #endif	/* _EUTRACellIdentity_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

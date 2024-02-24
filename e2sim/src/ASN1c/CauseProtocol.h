@@ -9,10 +9,10 @@
 #define	_CauseProtocol_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <NativeEnumerated.h>
+#include "NativeEnumerated.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -58,4 +58,4 @@ per_type_encoder_f CauseProtocol_encode_aper;
 #endif
 
 #endif	/* _CauseProtocol_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

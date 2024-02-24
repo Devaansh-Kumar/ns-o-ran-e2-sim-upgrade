@@ -9,10 +9,10 @@
 #define	_GNB_DU_ID_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <INTEGER.h>
+#include "INTEGER.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -43,4 +43,4 @@ per_type_encoder_f GNB_DU_ID_encode_aper;
 #endif
 
 #endif	/* _GNB_DU_ID_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

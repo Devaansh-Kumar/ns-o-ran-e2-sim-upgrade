@@ -9,12 +9,12 @@
 #define	_GlobalngeNB_ID_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "PLMN-Identity.h"
 #include "ENB-ID-Choice.h"
-#include <constr_SEQUENCE.h>
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -43,4 +43,4 @@ extern asn_TYPE_member_t asn_MBR_GlobalngeNB_ID_1[2];
 #endif
 
 #endif	/* _GlobalngeNB_ID_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

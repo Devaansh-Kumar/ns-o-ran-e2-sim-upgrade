@@ -9,11 +9,11 @@
 #define	_RANfunctions_List_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <asn_SEQUENCE_OF.h>
-#include <constr_SEQUENCE_OF.h>
+#include "asn_SEQUENCE_OF.h"
+#include "constr_SEQUENCE_OF.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -41,4 +41,4 @@ extern asn_per_constraints_t asn_PER_type_RANfunctions_List_constr_1;
 #endif
 
 #endif	/* _RANfunctions_List_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

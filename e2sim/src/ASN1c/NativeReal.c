@@ -9,10 +9,10 @@
  * implementation deals with the standard (machine-specific) representation
  * of them instead of using the platform-independent buffer.
  */
-#include <asn_internal.h>
-#include <NativeReal.h>
-#include <REAL.h>
-#include <OCTET_STRING.h>
+#include "asn_internal.h"
+#include "NativeReal.h"
+#include "REAL.h"
+#include "OCTET_STRING.h"
 #include <math.h>
 #include <float.h>
 

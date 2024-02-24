@@ -9,18 +9,18 @@
 #define	_ProtocolIE_Field_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "ProtocolIE-ID.h"
 #include "Criticality.h"
-#include <ANY.h>
-#include <asn_ioc.h>
+#include "ANY.h"
+#include "asn_ioc.h"
 #include "RICaction-ToBeSetup-Item.h"
 #include "Presence.h"
-#include <OPEN_TYPE.h>
-#include <constr_CHOICE.h>
-#include <constr_SEQUENCE.h>
+#include "OPEN_TYPE.h"
+#include "constr_CHOICE.h"
+#include "constr_SEQUENCE.h"
 #include "RICaction-Admitted-Item.h"
 #include "RICaction-NotAdmitted-Item.h"
 #include "RANfunction-Item.h"
@@ -754,4 +754,4 @@ extern asn_TYPE_member_t asn_MBR_RICserviceQuery_IEs_101[3];
 #endif
 
 #endif	/* _ProtocolIE_Field_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

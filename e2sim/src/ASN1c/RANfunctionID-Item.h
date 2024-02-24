@@ -9,12 +9,12 @@
 #define	_RANfunctionID_Item_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "RANfunctionID.h"
 #include "RANfunctionRevision.h"
-#include <constr_SEQUENCE.h>
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -43,4 +43,4 @@ extern asn_TYPE_member_t asn_MBR_RANfunctionID_Item_1[2];
 #endif
 
 #endif	/* _RANfunctionID_Item_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

@@ -9,7 +9,7 @@
 #define	_MeasurementLabel_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "PLMN-Identity.h"
@@ -17,9 +17,9 @@
 #include "QFI.h"
 #include "QCI.h"
 #include "ARP.h"
-#include <NativeInteger.h>
-#include <NativeEnumerated.h>
-#include <constr_SEQUENCE.h>
+#include "NativeInteger.h"
+#include "NativeEnumerated.h"
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -90,4 +90,4 @@ extern asn_TYPE_member_t asn_MBR_MeasurementLabel_1[17];
 #endif
 
 #endif	/* _MeasurementLabel_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

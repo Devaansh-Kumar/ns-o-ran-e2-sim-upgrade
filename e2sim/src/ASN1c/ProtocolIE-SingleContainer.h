@@ -9,7 +9,7 @@
 #define	_ProtocolIE_SingleContainer_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "ProtocolIE-Field.h"
@@ -117,4 +117,4 @@ per_type_encoder_f ProtocolIE_SingleContainer_90P5_encode_aper;
 #endif
 
 #endif	/* _ProtocolIE_SingleContainer_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

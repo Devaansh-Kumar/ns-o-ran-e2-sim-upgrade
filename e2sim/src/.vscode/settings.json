@@ -6,6 +6,21 @@
         "nativeinteger.h": "c",
         "errno.h": "c",
         "assert.h": "c",
-        "per_decoder.h": "c"
+        "per_decoder.h": "c",
+        "bit_string.h": "c",
+        "boolean.h": "c",
+        "constr_choice.h": "c",
+        "printablestring.h": "c",
+        "constr_sequence.h": "c",
+        "per_opentype.h": "c",
+        "open_type.h": "c",
+        "constr_set_of.h": "c",
+        "constraints.h": "c",
+        "fiveqi.h": "c",
+        "null.h": "c",
+        "any.h": "c",
+        "nativereal.h": "c",
+        "real.h": "c",
+        "ranparameter-value.h": "c"
     }
 }

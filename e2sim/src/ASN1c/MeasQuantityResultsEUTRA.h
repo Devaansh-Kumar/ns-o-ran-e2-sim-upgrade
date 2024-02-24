@@ -9,13 +9,13 @@
 #define	_MeasQuantityResultsEUTRA_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "RSRP-RangeEUTRA.h"
 #include "RSRQ-RangeEUTRA.h"
 #include "SINR-RangeEUTRA.h"
-#include <constr_SEQUENCE.h>
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -45,4 +45,4 @@ extern asn_TYPE_member_t asn_MBR_MeasQuantityResultsEUTRA_1[3];
 #endif
 
 #endif	/* _MeasQuantityResultsEUTRA_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

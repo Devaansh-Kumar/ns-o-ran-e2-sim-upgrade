@@ -9,14 +9,14 @@
 #define	_E2SM_KPM_ActionDefinition_Format3_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "CellObjectID.h"
 #include "MeasurementCondList.h"
 #include "GranularityPeriod.h"
 #include "SubscriptionID.h"
-#include <constr_SEQUENCE.h>
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -47,4 +47,4 @@ extern asn_TYPE_member_t asn_MBR_E2SM_KPM_ActionDefinition_Format3_1[4];
 #endif
 
 #endif	/* _E2SM_KPM_ActionDefinition_Format3_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

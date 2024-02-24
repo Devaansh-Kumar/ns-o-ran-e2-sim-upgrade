@@ -9,11 +9,11 @@
 #define	_ENB_ID_Choice_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <BIT_STRING.h>
-#include <constr_CHOICE.h>
+#include "BIT_STRING.h"
+#include "constr_CHOICE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -57,4 +57,4 @@ extern asn_per_constraints_t asn_PER_type_ENB_ID_Choice_constr_1;
 #endif
 
 #endif	/* _ENB_ID_Choice_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

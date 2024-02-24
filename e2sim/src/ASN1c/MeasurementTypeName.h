@@ -9,10 +9,10 @@
 #define	_MeasurementTypeName_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <PrintableString.h>
+#include "PrintableString.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -43,4 +43,4 @@ per_type_encoder_f MeasurementTypeName_encode_aper;
 #endif
 
 #endif	/* _MeasurementTypeName_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

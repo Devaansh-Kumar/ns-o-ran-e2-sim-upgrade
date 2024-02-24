@@ -5,8 +5,8 @@
 #ifndef	ASN_TYPE_REAL_H
 #define	ASN_TYPE_REAL_H
 
-#include <asn_application.h>
-#include <asn_codecs_prim.h>
+#include "asn_application.h"
+#include "asn_codecs_prim.h"
 
 #ifdef __cplusplus
 extern "C" {

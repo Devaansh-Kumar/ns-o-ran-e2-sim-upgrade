@@ -9,11 +9,11 @@
 #define	_ProtocolIE_Container_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <asn_SEQUENCE_OF.h>
-#include <constr_SEQUENCE_OF.h>
+#include "asn_SEQUENCE_OF.h"
+#include "constr_SEQUENCE_OF.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -250,4 +250,4 @@ extern asn_per_constraints_t asn_PER_type_ProtocolIE_Container_87P19_constr_39;
 #endif
 
 #endif	/* _ProtocolIE_Container_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

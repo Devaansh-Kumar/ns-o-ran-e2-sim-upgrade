@@ -9,11 +9,11 @@
 #define	_ResultsPerCSI_RS_Index_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "CSI-RS-Index.h"
-#include <constr_SEQUENCE.h>
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -45,4 +45,4 @@ extern asn_TYPE_member_t asn_MBR_ResultsPerCSI_RS_Index_1[2];
 #endif
 
 #endif	/* _ResultsPerCSI_RS_Index_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

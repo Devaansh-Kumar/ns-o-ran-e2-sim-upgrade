@@ -9,10 +9,10 @@
 #define	_TestCond_Expression_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <NativeEnumerated.h>
+#include "NativeEnumerated.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -56,4 +56,4 @@ per_type_encoder_f TestCond_Expression_encode_aper;
 #endif
 
 #endif	/* _TestCond_Expression_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

@@ -9,10 +9,10 @@
 #define	_E2SM_KPM_IndicationHeader_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <constr_CHOICE.h>
+#include "constr_CHOICE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -52,4 +52,4 @@ extern asn_TYPE_descriptor_t asn_DEF_E2SM_KPM_IndicationHeader;
 #endif
 
 #endif	/* _E2SM_KPM_IndicationHeader_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

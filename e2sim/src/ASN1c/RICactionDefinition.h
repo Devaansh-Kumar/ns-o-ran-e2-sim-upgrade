@@ -9,10 +9,10 @@
 #define	_RICactionDefinition_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <OCTET_STRING.h>
+#include "OCTET_STRING.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -42,4 +42,4 @@ per_type_encoder_f RICactionDefinition_encode_aper;
 #endif
 
 #endif	/* _RICactionDefinition_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

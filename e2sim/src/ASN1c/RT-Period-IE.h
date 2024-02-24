@@ -9,10 +9,10 @@
 #define	_RT_Period_IE_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <NativeEnumerated.h>
+#include "NativeEnumerated.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -71,4 +71,4 @@ per_type_encoder_f RT_Period_IE_encode_aper;
 #endif
 
 #endif	/* _RT_Period_IE_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

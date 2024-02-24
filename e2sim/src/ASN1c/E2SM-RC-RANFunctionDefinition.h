@@ -9,13 +9,13 @@
 #define	_E2SM_RC_RANFunctionDefinition_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "RANfunction-Name.h"
-#include <asn_SEQUENCE_OF.h>
-#include <constr_SEQUENCE_OF.h>
-#include <constr_SEQUENCE.h>
+#include "asn_SEQUENCE_OF.h"
+#include "constr_SEQUENCE_OF.h"
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -57,4 +57,4 @@ extern asn_TYPE_descriptor_t asn_DEF_E2SM_RC_RANFunctionDefinition;
 #endif
 
 #endif	/* _E2SM_RC_RANFunctionDefinition_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

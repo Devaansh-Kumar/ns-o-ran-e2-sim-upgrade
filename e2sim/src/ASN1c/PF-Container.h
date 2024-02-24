@@ -9,10 +9,10 @@
 #define	_PF_Container_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <constr_CHOICE.h>
+#include "constr_CHOICE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -55,4 +55,4 @@ extern asn_per_constraints_t asn_PER_type_PF_Container_constr_1;
 #endif
 
 #endif	/* _PF_Container_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

@@ -6,7 +6,7 @@
 #ifndef _BSD_SOURCE
 #define	_BSD_SOURCE		/* To reintroduce finite(3) */
 #endif
-#include <asn_internal.h>
+#include "asn_internal.h"
 #if	defined(__alpha)
 #include <sys/resource.h>	/* For INFINITY */
 #endif
@@ -14,8 +14,8 @@
 #include <math.h>
 #include <float.h>
 #include <errno.h>
-#include <REAL.h>
-#include <OCTET_STRING.h>
+#include "REAL.h"
+#include "OCTET_STRING.h"
 
 #undef	INT_MAX
 #define	INT_MAX	((int)(((unsigned int)-1) >> 1))

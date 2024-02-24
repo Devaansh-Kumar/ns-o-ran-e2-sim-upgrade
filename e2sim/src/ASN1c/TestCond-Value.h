@@ -9,15 +9,15 @@
 #define	_TestCond_Value_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <NativeInteger.h>
-#include <BOOLEAN.h>
-#include <BIT_STRING.h>
-#include <OCTET_STRING.h>
-#include <PrintableString.h>
-#include <constr_CHOICE.h>
+#include "NativeInteger.h"
+#include "BOOLEAN.h"
+#include "BIT_STRING.h"
+#include "OCTET_STRING.h"
+#include "PrintableString.h"
+#include "constr_CHOICE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -67,4 +67,4 @@ extern asn_per_constraints_t asn_PER_type_TestCond_Value_constr_1;
 #endif
 
 #endif	/* _TestCond_Value_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

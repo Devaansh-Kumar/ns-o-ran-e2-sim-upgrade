@@ -9,12 +9,12 @@
 #define	_E2SM_KPM_IndicationHeader_Format1_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "TimeStamp.h"
 #include "GlobalE2node-ID.h"
-#include <constr_SEQUENCE.h>
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -43,4 +43,4 @@ extern asn_TYPE_member_t asn_MBR_E2SM_KPM_IndicationHeader_Format1_1[2];
 #endif
 
 #endif	/* _E2SM_KPM_IndicationHeader_Format1_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

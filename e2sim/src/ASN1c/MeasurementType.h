@@ -9,12 +9,12 @@
 #define	_MeasurementType_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "MeasurementTypeName.h"
 #include "MeasurementTypeID.h"
-#include <constr_CHOICE.h>
+#include "constr_CHOICE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -56,4 +56,4 @@ extern asn_per_constraints_t asn_PER_type_MeasurementType_constr_1;
 #endif
 
 #endif	/* _MeasurementType_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

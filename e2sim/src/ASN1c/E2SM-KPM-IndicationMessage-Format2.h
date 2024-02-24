@@ -9,7 +9,7 @@
 #define	_E2SM_KPM_IndicationMessage_Format2_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "SubscriptionID.h"
@@ -17,7 +17,7 @@
 #include "GranularityPeriod.h"
 #include "MeasurementCondUEidList.h"
 #include "MeasurementData.h"
-#include <constr_SEQUENCE.h>
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -49,4 +49,4 @@ extern asn_TYPE_member_t asn_MBR_E2SM_KPM_IndicationMessage_Format2_1[5];
 #endif
 
 #endif	/* _E2SM_KPM_IndicationMessage_Format2_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

@@ -9,11 +9,11 @@
 #define	_RICindication_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "ProtocolIE-Container.h"
-#include <constr_SEQUENCE.h>
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -39,4 +39,4 @@ extern asn_TYPE_descriptor_t asn_DEF_RICindication;
 #endif
 
 #endif	/* _RICindication_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

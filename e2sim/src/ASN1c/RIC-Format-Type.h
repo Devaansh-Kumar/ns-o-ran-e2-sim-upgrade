@@ -9,10 +9,10 @@
 #define	_RIC_Format_Type_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <NativeInteger.h>
+#include "NativeInteger.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -42,4 +42,4 @@ per_type_encoder_f RIC_Format_Type_encode_aper;
 #endif
 
 #endif	/* _RIC_Format_Type_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

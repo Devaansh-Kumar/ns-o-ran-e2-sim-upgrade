@@ -9,13 +9,13 @@
 #define	_MeasResultPCell_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "PhysCellId.h"
 #include "RSRP-Range.h"
 #include "RSRQ-Range.h"
-#include <constr_SEQUENCE.h>
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -45,4 +45,4 @@ extern asn_TYPE_member_t asn_MBR_MeasResultPCell_1[3];
 #endif
 
 #endif	/* _MeasResultPCell_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

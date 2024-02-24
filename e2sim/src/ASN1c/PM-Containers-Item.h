@@ -9,11 +9,11 @@
 #define	_PM_Containers_Item_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "RAN-Container.h"
-#include <constr_SEQUENCE.h>
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -45,4 +45,4 @@ extern asn_TYPE_member_t asn_MBR_PM_Containers_Item_1[2];
 #endif
 
 #endif	/* _PM_Containers_Item_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

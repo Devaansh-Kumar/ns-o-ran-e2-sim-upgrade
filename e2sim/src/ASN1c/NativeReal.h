@@ -11,7 +11,7 @@
 #ifndef	ASN_TYPE_NativeReal_H
 #define	ASN_TYPE_NativeReal_H
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 #ifdef __cplusplus
 extern "C" {

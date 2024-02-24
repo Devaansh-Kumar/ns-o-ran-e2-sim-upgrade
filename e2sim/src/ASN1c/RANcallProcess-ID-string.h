@@ -9,10 +9,10 @@
 #define	_RANcallProcess_ID_string_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <PrintableString.h>
+#include "PrintableString.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -42,4 +42,4 @@ per_type_encoder_f RANcallProcess_ID_string_encode_aper;
 #endif
 
 #endif	/* _RANcallProcess_ID_string_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

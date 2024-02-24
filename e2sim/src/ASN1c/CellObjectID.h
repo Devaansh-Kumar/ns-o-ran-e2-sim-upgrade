@@ -9,10 +9,10 @@
 #define	_CellObjectID_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <PrintableString.h>
+#include "PrintableString.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -43,4 +43,4 @@ per_type_encoder_f CellObjectID_encode_aper;
 #endif
 
 #endif	/* _CellObjectID_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

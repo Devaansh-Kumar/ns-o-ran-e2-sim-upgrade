@@ -9,11 +9,11 @@
 #define	_RICaction_Admitted_Item_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "RICactionID.h"
-#include <constr_SEQUENCE.h>
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -41,4 +41,4 @@ extern asn_TYPE_member_t asn_MBR_RICaction_Admitted_Item_1[1];
 #endif
 
 #endif	/* _RICaction_Admitted_Item_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

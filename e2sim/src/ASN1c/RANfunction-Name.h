@@ -9,12 +9,12 @@
 #define	_RANfunction_Name_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
-#include <PrintableString.h>
-#include <NativeInteger.h>
-#include <constr_SEQUENCE.h>
+#include "PrintableString.h"
+#include "NativeInteger.h"
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -45,4 +45,4 @@ extern asn_TYPE_member_t asn_MBR_RANfunction_Name_1[4];
 #endif
 
 #endif	/* _RANfunction_Name_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"

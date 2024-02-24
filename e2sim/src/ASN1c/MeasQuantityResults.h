@@ -9,13 +9,13 @@
 #define	_MeasQuantityResults_H_
 
 
-#include <asn_application.h>
+#include "asn_application.h"
 
 /* Including external dependencies */
 #include "RSRP-Range.h"
 #include "RSRQ-Range.h"
 #include "SINR-Range.h"
-#include <constr_SEQUENCE.h>
+#include "constr_SEQUENCE.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -45,4 +45,4 @@ extern asn_TYPE_member_t asn_MBR_MeasQuantityResults_1[3];
 #endif
 
 #endif	/* _MeasQuantityResults_H_ */
-#include <asn_internal.h>
+#include "asn_internal.h"
